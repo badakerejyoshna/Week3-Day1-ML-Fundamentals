@@ -1,0 +1,102 @@
+PART 5:
+
+1. What is the slope?
+
+The slope is the coefficient value of a feature in Linear Regression. It shows how much the marks can change when a feature increases by one unit.
+
+2. What is the intercept?
+
+The intercept is the starting value of the prediction when all feature values are zero.
+
+3. What do they mean?
+
+The coefficients show the importance of each feature in predicting marks. The intercept acts as a base value for prediction.
+
+PART 7:
+
+Which student had the highest prediction error?
+
+The student with the largest value in the Difference column has the highest prediction error.
+
+PART 8:
+
+1. What is MAE?
+
+MAE stands for Mean Absolute Error. It measures the average difference between actual values and predicted values. Lower MAE means better predictions.
+
+2. What is R² Score?
+
+R² Score tells us how well the model fits the data. A value closer to 1 means the model is performing well.
+
+3. Is your model performing well?
+
+Yes. If MAE is low and R² Score is close to 1, then the model is performing well on the dataset.
+Machine Learning is a part of Artificial Intelligence that allows computers to learn from data and make predictions. Instead of writing rules for every situation, we train a model using data. The model learns patterns from the data and uses those patterns to make decisions.
+
+Research Questions:
+
+1.What is Machine Learning?
+
+Machine Learning is a part of Artificial Intelligence that allows computers to learn from data and make predictions. Instead of writing rules for every situation, we train a model using data. The model learns patterns from the data and uses those patterns to make decisions.
+For example, if we provide information about student study hours and marks, the model can learn the relationship between them and predict marks for new students. Machine Learning is used in many applications such as YouTube recommendations, Google Maps, online shopping suggestions, spam email detection and face recognition.
+
+There are different types of Machine Learning such as supervised learning, unsupervised learning and reinforcement learning. In this assignment, we used supervised learning because the marks were already available in the dataset. Machine Learning helps solve real-world problems and makes systems smarter by learning from experience and data.
+
+2.What is Linear Regression?
+
+Linear Regression is one of the simplest machine learning algorithms. It is mainly used to predict numerical values. It finds the relationship between input features and the target value.
+
+In our assignment, the model uses Study Hours, Attendance and Assignments to predict Marks. Linear Regression tries to fit a straight line through the data. Using this line, it can predict values for new data points.
+
+Linear Regression is easy to understand and is often the first algorithm learned by beginners. It works best when there is a linear relationship between the inputs and outputs. The algorithm calculates coefficients and an intercept, which are used to make predictions. Because of its simplicity, Linear Regression is widely used in education and introductory machine learning projects.
+
+3. What are Features?
+
+Features are the input columns that are used to train a machine learning model. They contain the information that helps the model make predictions. Features are also called independent variables because they influence the output value.
+
+In this assignment, the features are Study_Hours, Attendance, and Assignments. These columns provide information about a student's performance. The machine learning model uses these features to predict Marks.
+
+Choosing the correct features is very important because they affect the accuracy of the model. If irrelevant features are selected, the model may not perform well. Good features help the model learn patterns more effectively.
+
+Features can be numbers, categories, text, or other types of data depending on the problem. For example, in a house price prediction project, features could be house size, number of bedrooms, and location.
+
+In simple words, features are the inputs given to the model so that it can learn and make predictions. Without features, the model would not have enough information to predict the target value.
+
+4. What are Labels?
+
+Labels are the output values that a machine learning model tries to predict. They are also called target variables. During training, the model learns the relationship between features and labels.
+
+In this assignment, Marks is the label because it is the value we want to predict. The model studies the features such as Study_Hours, Attendance, and Assignments to understand how they affect student marks.
+
+Labels are important in supervised learning because they provide the correct answers for the model. The algorithm compares its predictions with the actual labels and learns from its mistakes. This process helps improve the accuracy of the model.
+
+Different projects can have different labels. For example, in a salary prediction project, Salary would be the label. In a house price prediction project, House Price would be the label.
+
+In simple terms, labels are the results or outputs that we want the machine learning model to predict using the available features.
+
+5. What is the Difference Between Training Data and Testing Data?
+
+Training data and testing data are two parts of a dataset used in machine learning. Both are important for building and evaluating a model.
+
+Training data is used to teach the model. The model learns patterns and relationships from this data. Usually, most of the dataset is used for training. In our assignment, 80% of the data is used for training the Linear Regression model.
+
+Testing data is used after the model has been trained. The model makes predictions on the testing data, and the results are compared with the actual values. This helps us understand how well the model performs on unseen data.
+
+If we only use training data, we cannot know whether the model is actually good at predicting new values. Testing data helps us measure the model's performance and accuracy.
+
+In simple words, training data helps the model learn, while testing data helps us check whether the model has learned correctly and can make good predictions.
+
+
+6. Where is Machine Learning Used in Real Life?
+
+Machine Learning is used in many real-life applications that we use every day. It helps computers make predictions, recognize patterns, and automate tasks.
+
+One common example is recommendation systems. Platforms like YouTube, Netflix, and Amazon use machine learning to recommend videos, movies, and products based on user interests. Email services use machine learning to identify spam messages and filter them automatically.
+
+Machine learning is also used in healthcare. Doctors and hospitals use it to help detect diseases and analyze medical data. Banks use machine learning for fraud detection and risk analysis. It can identify unusual transactions and help improve security.
+
+Another important application is speech and image recognition. Voice assistants such as Siri and Google Assistant use machine learning to understand spoken commands. Face recognition systems on mobile phones also use machine learning technology.
+
+Machine learning is also used in self-driving cars, weather forecasting, online shopping, social media platforms, and customer support systems. These applications show how machine learning has become an important part of modern technology and everyday life.
+
+
