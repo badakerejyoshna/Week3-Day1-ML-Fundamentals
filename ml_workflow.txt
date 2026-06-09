@@ -1,0 +1,33 @@
+MACHINE LEARNING WORKFLOW:
+
+1. Data Collection:
+
+Data collection is the first step in machine learning. In this step we gather the data that we want to use for our project. The data can come from surveys, websites, sensors or databases. In this assignment, we used a student performance dataset. The dataset contains study hours, attendance, assignments and marks.
+
+2. Data Cleaning:
+
+Data cleaning means checking the dataset for any problems. Sometimes datasets may have missing values, duplicate rows or wrong data. These problems should be fixed before training the model. Our dataset is already clean, so no extra cleaning was required.
+
+3. Feature Selection:
+
+Features are the input columns used to make predictions. In this project, Study_Hours, Attendance and Assignments are the features. These columns help the model predict student marks. Choosing the correct features is important for getting better results.
+
+4. Train-Test Split:
+
+The dataset is divided into two parts: training data and testing data. The training data is used to teach the model. The testing data is used to check how well the model works. We used 80% training data and 20% testing data.
+
+5. Model Training:
+
+Model training is the process where the machine learning algorithm learns from the data. In this assignment, we used Linear Regression. The model learns the relationship between the features and marks.
+
+6. Testing:
+
+After training, the model is tested using the testing dataset. The model predicts marks and the predictions are compared with actual marks. This helps us understand how well the model performs.
+
+7. Evaluation:
+
+Evaluation is used to measure the performance of the model. We used MAE and R² Score. These metrics tell us whether the model is making accurate predictions.
+
+8. Prediction:
+
+Prediction is the final step. After training the model, we can give new data and get predicted results. In this project, the model predicts student marks based on study hours, attendance and assignments.
